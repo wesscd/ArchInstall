@@ -19,4 +19,6 @@ echo "Executing ArchInstall Script"
 
 cd $HOME/ArchInstall
 
+chmod +x *.sh
+
 exec ./ArchInstall.sh
