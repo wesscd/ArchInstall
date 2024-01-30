@@ -10,7 +10,7 @@ This is currently a work in progress and check the branchs for the old versions.
 New single command quicklaunch
 
 ```
-bash <(curl -L christitus.com/archtitus)
+bash <(curl -L tinyurl.com/AutoInstallArchLinux)
 ```
 
 Old Script with all the customizations is located in the (all-in-one-2022 branch) here: <https://github.com/ChrisTitusTech/ArchTitus/tree/all-in-one-2022-script>
@@ -35,9 +35,10 @@ From initial Prompt type the following commands:
 
 ```
 pacman -Sy git
-git clone https://github.com/ChrisTitusTech/ArchTitus
-cd ArchTitus
-./archtitus.sh
+git clone https://github.com/wesscd/ArchInstall
+cd ArchInstall
+chmod +x *.sh
+./ArchInstall.sh
 ```
 
 ### System Description
